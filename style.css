@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.row1_topBar_row {
+  background-color: rgb(53, 59, 60);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+}
+.row1_name {
+  width: 50%;
+  color: #fff;
+  font-size: 25px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.row1_navigator {
+  width: 50%;
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.row1_navbar_links {
+  font-size: 15px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: dodgerblue;
+  padding: 10px;
+  width: 15%;
+  border-radius: 20px;
+}
+a:hover {
+  color: #000;
+  background-color: rgb(65, 207, 72);
+}
+img {
+  border-radius: 25px;
+  margin: 10px;
+}
+.row2 {
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  padding-top: 150px;
+}
+.row2_inner_div {
+  margin: 0 100px;
+  padding: 10px 150px;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(24, 60, 49, 0.358);
+  color: azure;
+}
+.row2_inner_div:hover {
+  background-color: rgba(99, 99, 25, 0.304);
+  color: #fff;
+}
+.row2_intro_div {
+  padding: 10px 30px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.row2_intro_div > h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.2rem;
+}
+.row2_intro_div > p {
+  padding-top: 10px;
+  letter-spacing: 0.2rem;
+}
+
+.row3 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+}
+.row3_title {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.1em;
+}
+.row3_myskills_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px 25px;
+}
+.row3_skills_div_box {
+  background-color: #fff;
+  color: #000;
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 30px 10px;
+  font-family: monospace;
+  font-weight: 800;
+}
+.row3_skills_div_box:hover {
+  background-color: darkslategrey;
+  color: #fff;
+}
+.row4_title {
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.1em;
+}
+.row4 {
+  background-color: #000;
+  width: 100%;
+}
+
+.row4_education_div {
+  background-color: black;
+  padding: 30px;
+}
+.row4_education_details {
+  background-color: #fff;
+  margin: 30px;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 25px;
+}
+.row4_education_details > p {
+  padding-top: 15px;
+  font-size: 18px;
+  font-family: monospace;
+}
+.row4_education_details:hover {
+  background-color: darkslategrey;
+  color: #fff;
+}
+.final_row_inner_div {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  align-content: center;
+  padding-bottom: 50px;
+  color: #fff;
+  padding-top: 80px;
+}
+.final_row_my_contact {
+  width: 50%;
+  padding: 20px;
+}
+.final_row_my_contact > p {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+.final_row_my_contact > address {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding-left: 30px;
+  padding-top: 30px;
+  letter-spacing: 0.2rem;
+  line-height: 2rem;
+}
+.final_row_social_media {
+  width: 50%;
+  padding: 20px;
+}
+.final_row_social_media > p {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+.final_row_social_media_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.final_row_social_media_div > a:hover {
+  background-color: black;
+  color: aqua;
+}
+.social_media {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.final_row_span1 {
+  color: crimson;
+}
+
+.final_row_span2 {
+  display: inline-block;
+}
